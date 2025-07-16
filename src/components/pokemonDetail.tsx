@@ -3,6 +3,8 @@ import { PokemonResponseDetailProps, TypesProps } from "../types/pokemon";
 const PokemonDetail = (data: PokemonResponseDetailProps) => {
   return (
     <>
+      <input type="text" />
+      <label>Surname</label>
       <div className="flex justify-center">
         <img
           src={data?.sprites?.front_default}
